@@ -10,7 +10,7 @@ script:
 
 deploy:
     provider: elasticbeanstalk
-    region: us-west-1 # Specify your region
+    region: us-east-1 # Specify your region
     app: "PracticeProject" # Copy it from Elastic Beanstalk dashboard
     env: "Practiceproject-env2" # Copy it from Elastic Beanstalk dashboard
     bucket_name: "elasticbeanstalk-us-east-1-108876290112"
