@@ -18,7 +18,7 @@ deploy:
        access_key_id: $AWS_ACCESS_KEY
        secret_access_key: $AWS_SECRET_KEY
        on:
-          branch: feature_a
+          branch: staging
     -  provider: elasticbeanstalk
        region: us-west-1 # Specify your region
        app: "react-project-docker" # Copy it from Elastic Beanstalk dashboard
