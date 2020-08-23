@@ -12,13 +12,13 @@ deploy:
     -  provider: elasticbeanstalk
        region: us-east-1 # Specify your region
        app: "PracticeProjectStage" # Copy it from Elastic Beanstalk dashboard
-       env: "PracticeprojectStage-env" # Copy it from Elastic Beanstalk dashboard
+       env: "Practiceprojectstage-env" # Copy it from Elastic Beanstalk dashboard
        bucket_name: "elasticbeanstalk-us-east-1-108876290112"
        bucket_path: "docker"
        access_key_id: $AWS_ACCESS_KEY
        secret_access_key: $AWS_SECRET_KEY
        on:
-          branch: feature_a
+          branch: staging
     -  provider: elasticbeanstalk
        region: us-east-1 # Specify your region
        app: "react-project-docker" # Copy it from Elastic Beanstalk dashboard
@@ -27,5 +27,6 @@ deploy:
        bucket_path: "docker"
        access_key_id: $AWS_ACCESS_KEY
        secret_access_key: $AWS_SECRET_KEY
-       on:    
+       on:
           branch: master
+
