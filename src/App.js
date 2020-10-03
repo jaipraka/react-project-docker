@@ -12,7 +12,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload by Prakash.
 
 
-          Edit <code>src/App.js</code> and save to reload by A Prakash From Feature Branch.
+          Edit <code>src/App.js</code> and save to reload by Prakash Master Branch.
      
         </p>
         <a
